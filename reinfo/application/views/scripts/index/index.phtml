@@ -7,11 +7,11 @@
 		</header>
 		
 		<div class="grid col-one-half mq2-col-full">
-                     <?php foreach ($this->glowna as $k => $glowna); ?>
+                     <?php foreach ($this->glowna as $k => $glowna): ?>
 			<h2><?php echo $glowna['glownacol'] ?></h2>
 			<p><?php echo $glowna['glownacol1'] ?></p>
-			 <p>tu treść strony głownej</p>
-		</div>
+			<?php endforeach ?> 
+            		</div>
 			
 	
 		 <div class="slider grid col-one-half mq2-col-full">

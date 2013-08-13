@@ -39,21 +39,21 @@
 <div class="container">
 
 	<header id="navtop">
-		<a href="index.html" class="logo fleft">
+		<a href="<?php echo $this->url(array(), 'index') ?>" class="logo fleft">
 			<img src="img/logo.png" alt="reinfo-serwis.pl">
 		</a>
 		
 		<nav class="fright">
 			<ul>
-				<li><a href="index.html">Główna</a></li>
-				<li><a href="onas.html">O nas</a></li>
+				<li><a href="<?php echo $this->url(array(), 'index') ?>">Główna</a></li>
+				<li><a href="<?php echo $this->url(array(), 'onas') ?>">O nas</a></li>
 			</ul>
 			<ul>
-				<li><a href="wdrozenia.html">Wdrożenia</a></li>
-				<li><a href="oferta.html">Oferta</a></li>
+				<li><a href="<?php echo $this->url(array(), 'wdrozenia') ?>">Wdrożenia</a></li>
+				<li><a href="<?php echo $this->url(array(), 'oferta') ?>">Oferta</a></li>
 			</ul>
 			<ul>
-				<li><a href="blog.html">Blog</a></li>
+				<li><a href="<?php echo $this->url(array(), 'blog') ?>">Blog</a></li>
 				<li><a href="kontakt.html" class="navactive">Kontakt</a></li>
 			</ul>
 		</nav>
